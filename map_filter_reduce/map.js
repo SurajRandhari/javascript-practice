@@ -9,7 +9,7 @@ console.log(mapArray);
 // Array.map((num, i , arr) => {})
 
 Array.prototype.myMap = function (cb) {
-    temp = []
+    let temp = []
     for(let i = 0; i < this.length; i++) {
         temp.push(cb(this[i]))
     }
