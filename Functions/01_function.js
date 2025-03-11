@@ -38,3 +38,11 @@ function displayFunction(fn) {
 (function iife(num) {
     console.log(num * num);
 })(5);
+
+// -IIFE - O/P Questions
+
+(function (x) {
+    return (function (y) {
+        console.log(x);    
+    })(2)
+})(1)
