@@ -10,7 +10,7 @@ console.log(a);
 let b;
 // let b; //Cannot redeclare block-scoped variable 'b'
 
-console.log(b);.
+console.log(b);
 
 
 let ba; 
